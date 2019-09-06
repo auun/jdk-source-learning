@@ -24,6 +24,10 @@ sudo pacman -S openjdk8-src
 
 由于我使用的是基于 Arch 的 Manjaro，所以使用的是 pacman 的方式下载的源码，其他平台开以下载 JDK，安装目录下应该会有 src.zip 文件，或者可以去[这儿](https://jdk.java.net/java-se-ri/8)下载 JDK 解压，解压后的目录下即有需要的 src.zip。
 
+### 在线
+
+我已经把完整的解压缩后的 `src.zip` 文件上传到了本仓库下的 `src/` 目录下，如果不方便下载可以直接查看。
+
 ### 配置 Intellij
 
 打开 `File > Project Structre > Plateform Settings > SDKS`，选择 `Sourcepath`，将 src.zip 添加进去即可。
